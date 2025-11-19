@@ -2,7 +2,7 @@ import { Details } from "./details-module.js";
 import { ui } from "./ui-module.js";
 export class Games {
   constructor() {
-    this.getGames("mmorpg");
+    this.getGames("shooter");
     document.querySelectorAll(".menu a").forEach((link) => {
       link.addEventListener("click", (e) => {
         document.querySelector(".menu .active").classList.remove("active");
